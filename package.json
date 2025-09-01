@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=\"--no-experimental-strip-types\" node node_modules/.bin/mocha test.ts"
   },
   "keywords": [],
   "author": "",
